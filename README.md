@@ -5,9 +5,8 @@ Terraform Module for Managing Snowflake Administrative Policies like MFA, Networ
 
 This Terraform module is designed to manage various Snowflake account parameters and resources. Here's an overview of what each resource does:
 
-1. `snowflake_network_policy`: This resource manages a network policy in Snowflake. The policy is named "policy" and allows traffic from the IP range 192.168.0.100/24, while blocking traffic from the IP 192.168.0.101.
-2. `snowflake_email_notification_integration`: This resource manages an email notification integration in Snowflake. The integration is named "notification" and is enabled to send notifications to the email address "john.doe@gmail.com".
-3. `snowflake_account_parameter`: This resource manages various account parameters in Snowflake. The parameters include:
+1. `snowflake_email_notification_integration`: This resource manages an email notification integration in Snowflake. The integration is named "notification" and is enabled to send notifications to the email address "john.doe@gmail.com".
+2. `snowflake_account_parameter`: This resource manages various account parameters in Snowflake. The parameters include:
 
 - `ALLOW_CLIENT_MFA_CACHING`
 - `ALLOW_ID_TOKEN`
